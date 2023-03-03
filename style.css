@@ -30,7 +30,7 @@ body {
 
 .header {
   padding: 10px;
-  background-color: gray;
+  background-color: rgb(54, 54, 54);
   border-bottom: 2px solid white;
 }
 
@@ -102,4 +102,26 @@ cl {
   50% {
     border-color: white;
   }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1c1c1c;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4c4c4c;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #606060;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #1c1c1c;
 }
