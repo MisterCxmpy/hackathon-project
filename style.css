@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  overflow-y: hidden;
+}
+
+.terminal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header {
+  padding: 10px;
+  background-color: gray;
+  border-bottom: 2px solid white;
+}
+
+.color-switch {
+    float: right;
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+}
+
+.body {
+  padding: 10px;
+  height: 100%;
+  overflow-y: scroll;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.body::before {
+  content: ">";
+  margin-right: 5px;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+h2 {
+  position: fixed;
+  top: 2%;
+}
+
+form {
+  display: flex;
+}
+
+label {
+  color: white;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  width: 100%;
+}
+
+.path-a {
+  color: rgb(63, 185, 255);
+}
+
+cl {
+  color: rgb(255, 231, 16);
+}
+
+.path-b {
+  color: rgb(63, 185, 255);
+}
+
+.text {
+  color: #20C20E;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
