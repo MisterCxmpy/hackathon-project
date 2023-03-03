@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -26,13 +32,6 @@ body {
   padding: 10px;
   background-color: gray;
   border-bottom: 2px solid white;
-}
-
-.color-switch {
-    float: right;
-    height: 25px;
-    width: 25px;
-    margin-left: 5px;
 }
 
 .body {
@@ -68,6 +67,15 @@ input {
   color: white;
   outline: none;
   width: 100%;
+}
+
+#commandForm label {
+  white-space: nowrap;
+  padding-right: 5px;
+}
+
+#commandForm cl {
+  color: rgb(218, 104, 129);
 }
 
 .path-a {
