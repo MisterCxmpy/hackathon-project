@@ -6,7 +6,7 @@ inputField.addEventListener("submit", function (e) {
 
   const command = inputField.command.value;
 
-  createNewLine(command, true)
+  createNewLine(command, choicea, choiceb, true)
   choosePath(command)
 
 });
