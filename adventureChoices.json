@@ -29,6 +29,11 @@
                 "B": "alive"
             },
             "B": {
+                "description": "As you walked deeper into the forest...",
+                "choiceA": "Do you fight",
+                "choiceB": "Do you make peace",
+                "A":"alive - at what cost, as you leave the woods you put those thoughts behind you",
+                "B":"alive"
 
             }
         }
