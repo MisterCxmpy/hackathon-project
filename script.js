@@ -1,4 +1,5 @@
 
+
 const textBasedAdventure = (count,choice)=> {
     h1.textContent = start.description
     h2.textContent = start.choiceA
@@ -23,3 +24,4 @@ const textBasedAdventure = (count,choice)=> {
 // const textBasedAdventureEnd = (choice3)=> {
 //     h1.textContent = start.(choice3).description
 // }
+

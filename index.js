@@ -1,12 +1,30 @@
 const inputField = document.querySelector("#commandForm");
 const outputField = document.querySelector(".output");
+const choices = require('./adventureChoices.json')
+let count = 0
+
+
+const textBasedAdventure = (count, choice = "start") => {
+  if (choice == "start") {
+    h.textContent = choices.start.description
+    h2.textContent = choices.start.choiceA
+    h3.textContent = choices.start.choiceB
+    return choice = choice.command
+  } else {
+    //make choice a variable in this part .choice isnt the variable
+    h1.textContent = choices.start.choice.description
+    h2.textContent = choices.start.choice.choiceA
+    h3.textContent = choices.start.choice.choiceB
+    return choice = choice.choice.command
+  }
+}
 
 inputField.addEventListener("submit", function (e) {
   e.preventDefault();
 
   const command = inputField.command.value;
 
-  createNewLine(command, choicea, choiceb, true)
+  createNewLine(command,true)
   choosePath(command)
 
 });
