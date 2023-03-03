@@ -1,0 +1,41 @@
+{
+    "start": {
+        "description": "As you begin...",
+        "choiceA": "Do you ignore the rabbit and walk on?",
+        "choiceB": "Do you follow the rabbit's direction?",
+        "A":{
+            "description": "You decide to ignore the rabbit and make your way ...",
+            "choiceA": "Do you run",
+            "choiceB": "Do you hide",
+            "A": {
+                "description": "You had heard the stories about orcs...",
+                "choiceA":"Dive in the river",
+                "choiceB": "Look for another way",
+                "A": "dead",
+                "B":"alive"
+            },
+            "B": {
+
+            }
+        },
+        "B": {
+            "description": "You decide to continue on the trail...",
+            "choiceA": "Enter the cabin?",
+            "choiceB": "Ignore the cabin and continue on the trail?",
+            "A": {
+                "description": "You enter the cabin and notice that there are a few items inside...",
+                "choiceA": "",
+                "choiceB": "",
+                "A": {
+
+                },
+                "B": {
+
+                }
+            },
+            "B": {
+
+            }
+        }
+    },
+}

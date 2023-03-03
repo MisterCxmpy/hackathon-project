@@ -1,0 +1,45 @@
+1 : As you begin your journey,you notice that the forest seems endless, with trees as far as the eye can see. 
+The map is your only guide, and you soon realize that it is not very detailed. You must rely on your instincts and knowledge 
+of survival to make it out of the forest.You decide to follow a small trail you see in the distance, hoping it will lead you somewhere. 
+As you walk along the trail, you hear a strange noise coming from the bushes. You pause for a moment and listen. It sounds like something is 
+moving around in there."
+
+1.choice
+Choice A: Take the trail to the east?
+Choice B: Take the trail to the west?
+
+1.A : You decide to ignore the rabbit and make your way, step by step a sense of dread fills you mind as the forest grows to a deafining silence. As you realise the rabbit must have been running from something it turns the corner, an ORC!.
+
+1.A.chouce
+
+A. Do you run?
+B. Do you hide?
+
+1.A.A : You had heard the stories about orcs, but never thought you'd come face to face with one. As you ran through the forest, 
+your heart pounds in your chest, you can hear the orc's heavy footsteps behind you. Glancing over your shoulder you see the massive creature 
+gaining on you, its sharp teeth bared in a snarl.
+
+
+2.B : You decide to continue on the trail, ignoring the noise. The trail soon leads you to a clearing, 
+and you see a cabin in the distance. It looks old and abandoned. You wonder if anyone has ever lived there. 
+You approach the cabin and notice that the door is slightly open. Do you:
+
+
+2.B.Choice
+
+A. Enter the cabin?
+B. Ignore the cabin and continue on the trail?
+
+
+3.A : You enter the cabin and notice that there are a few items inside. There is a rusty old chest in the corner, a bookshelf with a few books, and a fireplace with some firewood. 
+You explore the room for a bit and find a diary on the bookshelf. It looks like it belonged to the previous owner of the cabin. You open it up and start reading.
+The diary tells the story of a person who got lost in the forest just like you did. They built the cabin to survive and eventually found a way out. You feel relieved knowing that 
+there is a way out of the forest. You decide to take the diary with you and continue on your journey.
+
+3.A.Choice
+
+A. Do you follow the adventurer's Path?
+B. Do you go your own path?
+
+
+
