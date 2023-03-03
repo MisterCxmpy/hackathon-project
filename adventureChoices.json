@@ -15,9 +15,7 @@
                 "A": "dead",
                 "B":"alive"
             },
-            "B": {
-
-            }
+            "B": "dead"
         },
         "B": {
             "description": "You decide to continue on the trail...",
@@ -25,14 +23,10 @@
             "choiceB": "Ignore the cabin and continue on the trail?",
             "A": {
                 "description": "You enter the cabin and notice that there are a few items inside...",
-                "choiceA": "",
-                "choiceB": "",
-                "A": {
-
-                },
-                "B": {
-
-                }
+                "choiceA": "Do you follow the cabin owner's path?",
+                "choiceB": "Do you follor your own path?",
+                "A": "dead",
+                "B": "alive"
             },
             "B": {
 
